@@ -20,7 +20,7 @@ class Recaptcha extends Field
             <script src="https://www.google.com/recaptcha/api.js"></script>
             <script>
                 window.addEventListener('turbo:load', () => {
-                    const form = document.querySelector('form');
+                    const form = document.querySelector('.waterhole__main form');
 
                     if (!form) {
                         return;
